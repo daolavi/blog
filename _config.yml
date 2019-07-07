@@ -1,0 +1,57 @@
+title: Dao Lam Personal Blog
+description: Dao Lam Personal Blog
+author: Dao Lam
+github: https://github.com/daolavi
+about: Over 8 years of experience working in the Software Services industry, I have a desire to apply high technology effectively into management processes to increase added values and reduce costs for entrepreneurs.
+disqus_shortname: daolavi
+google_analytics: UA-XXXXXXXX-Y
+avatar_url: /static/img/avatar.png
+
+enableTags: true
+tagarray: []
+
+collections:
+  project:
+    output: true
+    permalink: /project/:path/
+
+social:
+    - icon: fa-facebook
+      link: "#"
+    - icon: fa-twitter
+      link: "#"
+    - icon: fa-linkedin
+      link: "#"
+    - icon: fa-stack-exchange
+      link: "#"
+    - icon: fa-github
+      link: "https://github.com/daolavi"
+
+share:
+  twitter_username: github.io
+  fb_appid: 1749788565247320
+
+urls:
+    - text: About Me
+      url: /about/
+    - text: My Projects
+      url: /projects/
+    - text: XML Feed
+      url: /feed.xml
+
+url: "https://daolavi.github.io"
+baseurl: ""
+paginate: 20
+per_page: 20
+paginate_path: "/page/:num/"
+markdown: kramdown
+gems:
+  - jekyll-paginate
+  - jekyll-gist
+
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+  ignore:
+    envs: ['development']
